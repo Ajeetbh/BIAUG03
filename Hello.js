@@ -113,7 +113,11 @@
 // console.log(b)
 // console.log(c)
 
-let myFirstName='Ajeet'
-let myLastName='Bharti'
-console.log(myFirstName)
-console.log(myLastName)
+// let myFirstName='Ajeet'
+// let myLastName='Bharti'
+// console.log(myFirstName)
+// console.log(myLastName)
+
+
+
+console.log('ajeet')
