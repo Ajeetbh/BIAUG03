@@ -34,12 +34,13 @@
 // }
 // greet("Rahul")
 
-function square(num){
-    var result=num*num
-    return result
-}
-var s=square(6)
-console.log(s)
+// function square(num){
+//     var result=num*num
+//     return result
+// }
+// var s=square(6)
+// console.log(s)
+
 // function printNumberLessThanTen(number){
 //     for(var a =number ; a<10 ; a++){
 
@@ -61,8 +62,94 @@ console.log(s)
 
 // var a = 10
 // function rand(){
-//      a="rahul"
+//     a="rahul"
 //     console.log(a)
 // }
-// rand()
+//rand()  //calling a rand function
+// var newrand=rand //first-class function in js
+// console.log('__________________')
+// newrand()  //calling rand function
 // console.log(a)
+
+// function age(s){
+//     console.log(s)
+// }
+// age(a)
+
+// var a = 10
+// function rand(){
+//     a="rahul"
+//     console.log(a)
+// }
+// function print(msg){
+//     msg()
+// }
+// print(rand)
+
+// function print1(q,w){
+//     q(w)
+//     q('5')
+// }
+// print1(console.log,'13')
+
+// var a=10
+// function rand(){
+//     a='rahul'
+//     console.log(a)
+// }
+// function print(msg){
+//     msg()
+// }
+// print(rand);
+
+// var a=10
+// var rand=function(){
+//     a='14'
+//     console.log(a)
+// }
+// function print(msg){
+//     msg()
+// }
+// //print(rand)
+// print(function(){
+//     a='14'
+//     console.log(a)
+// })
+
+
+// var a=10
+// var rand=()=>{
+//     a='15'
+//     console.log(a)
+// }
+// var print=(msg)=>{
+//     msg()
+// }
+// print(rand)
+
+// print(function(){
+//     a='14'
+//     console.log(a)
+// })
+
+// function getAge(){
+//     console.log(1)
+//     return 12
+//     console.log(13)
+// }
+// console.log(getAge())
+
+function getAge(){
+    for(var i=0;i<10;i=i+2){
+        if(i==8){
+            
+        }
+        console.log(i)
+    }
+    // if(1<10){
+    //     return 30;
+    // }
+    console.log(68)
+}
+console.log(getAge())
+
