@@ -1,11 +1,13 @@
+//CONTINUE: skipe the loop 
+//BREAK:stop the loop
 // for(var a=1;a<4;a++){
 //     console.log(a)
-// }   1 2 3
+// }  //1 2 3
 
 // for(var a=1;a<4;a++){
 //     continue;
 //     console.log(a)
-// } 
+// } //nothing will be print
 
 // for(var a=1;a<4;a++){
 //          console.log(a) 
@@ -31,7 +33,7 @@
 //         continue;
 //     }
 //     console.log(a)
-// }  1,2,3
+// }  //1,2,3
 
 // for(var a=1;a<4;a++){
 //     if(a==2){
@@ -40,7 +42,7 @@
 //         continue;
 //     }
 //     console.log(a)
-// }  1 2 2....
+// }  //1 2 2....
 
 // for(var a=1;a<=4;a++){
 //     if(a==4){
@@ -49,10 +51,10 @@
 //         continue;
 //     }
 //     console.log(a)
-// }    1 2 3 3....
+// }    //1 2 3 3....
 
 // for(var a=1;a<4;a++){
-//     if(a){
+//     if(a==2){
 //         console.log(a)
 //         continue;
 //     }
@@ -67,7 +69,7 @@
 //         break;
 //     }
 //     console.log(a);
-// } 1
+// } //1
 
 // for(var a=1;a<4;a++){
 //     if(a==2){
@@ -94,7 +96,7 @@
 //         continue;
 //     }
 //     console.log(a);
-// }  1 2
+// }  //1 2
 
 // for(var a=1;a<4;a++){
 //     if(a==2){
@@ -113,7 +115,7 @@
 //         break;
 //     }
 //     console.log(a);
-// }  2 3
+// }  //2 3
 
 // for(var a=1;a<4;a++){
 //     if(a==2){
@@ -139,7 +141,7 @@
 //         console.log(b)
 //     }
 //     console.log(a)
-// } 1 3 1
+// } //1 3 1
 
 // for(var a=1;a<4;a++){
 //     if(a==2){

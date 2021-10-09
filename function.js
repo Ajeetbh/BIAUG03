@@ -6,40 +6,77 @@
 //     console.log("Bye Bye from Jarvis")
 // }
 // jarvis()
-// function eat(a,b){
+
+// function eat(a){
 //     if(a=="breakfast"){
 //         console.log("Bread")
 //     }  
-//     if(b=='morningTea'){
+//     if(a=='lunch'){
 //         console.log('Coffie or tea')
-//     }
-//     if(a=="lunch"){
-//         console.log("Idli")
-//     }
-//     if(b=='drink'){
-//         console.log('water')
 //     }
 //     if(a=="dinner"){
 //         console.log("Pizza")
 //     }  
 // }
-// eat('breakfast','morningTea')
+// eat('lunch')
+// eat('dinner')
+// eat('breakfast')
+
+// function eat(a,b){
+//     if(a=="breakfast"){
+//         console.log("Bread")
+//     }  
+//     if(a=='lunch'){
+//         console.log('Coffie or tea')
+//     }
+//     if(a=="dinner"){
+//         console.log("Pizza")
+//     }  
+//     console.log(b)
+// }
+// eat('lunch','Okay I am done')
+//eat('dinner')
+
+
+// function eat(a,b){
+//     if(a=="lunch"){
+//         console.log("Idli")
+//     }
+//     if(a=="breakfast"){
+//         console.log("Bread")
+//     }  
+//     if(a=="dinner"){
+//         console.log("Pizza")
+//     }  
+//     if(b=='drink'){
+//         console.log('water')
+//     }
+// }
+// eat('breakfast')
 // eat('lunch','drink')
 // eat('dinner','drink')
+
+
 // function greet(name){
 //     var msg="Hey "+name+", Welcome to BI"
 //     console.log(msg)
-//     //intead of printing this, I want to return the message to the place
+//     //instead of printing this, I want to return the message to the place
 //     //from where it was called
 // }
 // greet("Rahul")
 
+
+//RETURN: WHENEVER EXECUTED RETURN STATEMENT THE FLOW WILL
+//GET OU FROM THE FUNCTION
+
 // function square(num){
 //     var result=num*num
-//     return result
+//     return result;
+//     console.log(result)
+//     console.log('Ajeet')
 // }
-// var s=square(6)
-// console.log(s)
+// var x=square(6)+20
+// console.log(x)
 
 // function printNumberLessThanTen(number){
 //     for(var a =number ; a<10 ; a++){
@@ -60,12 +97,15 @@
 // var a="rahul"
 // console.log(a)
 
-// var a = 10
-// function rand(){
-//     a="rahul"
-//     console.log(a)
-// }
-//rand()  //calling a rand function
+var a = 10
+function rand(){
+    var a="rahul"
+    console.log(a)
+}
+rand()  //calling a rand function
+console.log(a)
+
+
 // var newrand=rand //first-class function in js
 // console.log('__________________')
 // newrand()  //calling rand function
@@ -139,17 +179,17 @@
 // }
 // console.log(getAge())
 
-function getAge(){
-    for(var i=0;i<10;i=i+2){
-        if(i==8){
+// function getAge(){
+//     for(var i=0;i<10;i=i+2){
+//         if(i==8){
             
-        }
-        console.log(i)
-    }
-    // if(1<10){
-    //     return 30;
-    // }
-    console.log(68)
-}
-console.log(getAge())
+//         }
+//         console.log(i)
+//     }
+//     // if(1<10){
+//     //     return 30;
+//     // }
+//     console.log(68)
+// }
+// console.log(getAge())
 

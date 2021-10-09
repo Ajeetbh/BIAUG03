@@ -89,12 +89,14 @@
 //     console.log(4)
 // }
 
-// var n="10"
-// if(n==10){
-//     console.log(5)
-// }else{
-//     console.log(6)
-// }
+var n="10"
+if(n===10){
+    console.log(5)
+}else{
+    console.log(6)
+}//5
+
+
 // if(n===10){
 //     console.log(55)
 // }else{
@@ -111,15 +113,15 @@
 //     console.log(m+" has 30 days")
 // }
 
-var age=40
-var nationlity="indian"
+// var age=40
+// var nationlity="indian"
 
-if(age>18){
-    if(nationlity=="indian"){
-        console.log("All good")
-    }
-}
+// if(age>18){
+//     if(nationlity=="indian"){
+//         console.log("All good")
+//     }
+// }
 
-if(age>18 || nationlity=="indian"){
-    console.log("All good")
-}
+// if(age>18 || nationlity=="indian"){
+//     console.log("All good")
+// }
