@@ -116,8 +116,5 @@
 // let myFirstName='Ajeet'
 // let myLastName='Bharti'
 // console.log(myFirstName)
-// console.log(myLastName)
+// console.log(myL
 
-
-
-console.log('ajeet')

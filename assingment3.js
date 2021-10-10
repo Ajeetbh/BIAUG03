@@ -153,19 +153,3 @@
 //   console.log(myDog)
 
 
-var n=[3,5,2,4,1]
-var odd=[]
-var even=[]
-var len=n.length
-var l=0, r=len-1
-for(let i=0;i<len;i++){
-    if(n[i]%2!=0){
-       odd+=n[i]
-    }
-    // if(n[i]%2==0){
-    //       even+=n[i]
-    // }
-    odd.sort(function(a,b){return b-a});
-    return odd;
-}
-console.log(odd)

@@ -67,7 +67,7 @@
 
 
 //RETURN: WHENEVER EXECUTED RETURN STATEMENT THE FLOW WILL
-//GET OU FROM THE FUNCTION
+//GET OUT FROM THE FUNCTION
 
 // function square(num){
 //     var result=num*num
@@ -97,15 +97,17 @@
 // var a="rahul"
 // console.log(a)
 
-var a = 10
-function rand(){
-    var a="rahul"
-    console.log(a)
-}
-rand()  //calling a rand function
-console.log(a)
+// var a = 10
+// function rand(){
+//     var a="rahul"
+//     console.log(a)
+// }
+// rand()  //calling a rand function
+// console.log(a)
 
 
+
+//FIRST CLASS CITIZEN: when a function treated as any other variable
 // var newrand=rand //first-class function in js
 // console.log('__________________')
 // newrand()  //calling rand function

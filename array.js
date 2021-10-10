@@ -63,13 +63,13 @@
 
 //Splice
 //delete the range of element from the array
-var mark=[1,12,14,17,18,0]
+//var mark=[1,12,14,17,18,0]
 //mark.splice(0,3) //0 is the index,3 number from 0th index will be deleted
 // console.log(mark) //[17,18,0]
 // mark.splice(3,1)
 // console.log(mark) //[1,12,14,18,0]
  
-var age=[19,18,10]
+//var age=[19,18,10]
 //age.splice(index,0,ele1,ele2,ele3..)
 // age.splice(0,0,1,2,3)
 // console.log(age)  //[1,2,3,19,18,10]
@@ -98,7 +98,7 @@ var age=[19,18,10]
 
 // console.log('10'<'2')
 
- var age=[10,1,3,2,5,4,7,9,6]
+ //var age=[10,1,3,2,5,4,7,9,6]
 // age.sort(function(a,b){
 //     if(a>b){
 //         return 1
@@ -108,5 +108,6 @@ var age=[19,18,10]
 //     }
 // })//passing a function to a function is called callback function
 
-age.sort((a,b)=>a-b) // arrow function
-console.log(age)
+// age.sort((a,b)=>a-b) // arrow function
+// console.log(age)
+

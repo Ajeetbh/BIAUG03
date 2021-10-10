@@ -89,12 +89,13 @@
 //     console.log(4)
 // }
 
-var n="10"
-if(n===10){
-    console.log(5)
-}else{
-    console.log(6)
-}//5
+//== compare value but === compare both value and data type 
+// var n="10"
+// if(n===10){
+//     console.log(5)
+// }else{
+//     console.log(6)
+// }//5
 
 
 // if(n===10){
