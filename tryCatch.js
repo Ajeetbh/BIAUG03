@@ -14,7 +14,6 @@
 //     console.log('still in try block')
 // }catch(error){
 //     console.log('Hi i am the catch block and i handle your error of try block');
-
 // }
 // console.log('the end')
 
@@ -30,17 +29,17 @@
 // console.log(3) //1 3
 
 
-//if error ocuur in catct=h block
-// var a=10
-// try{
-//     var a=10
-//     console.log(1)
-//     g()
-// }catch(error){
-//     console.log(2);
-//     go(); //this will stop program
-// }
-// console.log(3) //
+//if error ocuur in catch block
+var a=10
+try{
+    var a=10
+    console.log(1)
+    g()
+}catch(error){
+    console.log(2);
+    go(); //this will stop program
+}
+console.log(3) //
 
 //finally: if error occur or not finally block will execute
 // var a=10
@@ -73,9 +72,9 @@
 
 
 
-    var a=10
-    throw new Error("user no found ")
-    console.log(1)
+    // var a=10
+    // throw new Error("user no found ")
+    // console.log(1)
 
 
 
